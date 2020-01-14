@@ -54,3 +54,7 @@ merge branchu do master (lub innego):
 	
 https://learngitbranching.js.org/?fbclid=IwAR0H-h9h09YTAda3o1dWvtBswIw0dqKnHVxD7zS5hCO1wcIDJZo-KMcx4tM
 	
+Ustawianie logowania:
+	
+	git config --global credential.helper store
+	git pull
