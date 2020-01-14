@@ -1,6 +1,7 @@
 # testtodelete
 
 Komendy - tworzenie repo:
+	
 	Skopiuj repo z github:
 		git clone https://github.com/callcthulu/testrepo2.git
 	
@@ -16,13 +17,16 @@ Komendy - tworzenie repo:
 		git push -u origin master
 	
 Komendy - ściąganie zmian:
+	
 	git pull
 	
 Statusy:
+	
 	git log - status commitow
 	git status - jaki branch, jakie zmiany lokalne, co wejdzie do commita
 
 Komendy wrzucanie zmian:
+	
 	git add "nazwa"
 	git add -A
 	
@@ -44,6 +48,7 @@ Branche:
 	git push origin :nazwa_brancha - przekazuje usuniecie na github
 	
 merge branchu do master (lub innego):
+	
 	git checkout branch_ktory_ma_zostac
 	git merge branch_do_zmergowania
 	
